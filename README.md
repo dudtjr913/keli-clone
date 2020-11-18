@@ -6,3 +6,9 @@
 완벽하게는 만들기 위해 노력할 것임
 
 어떤 식으로 모델링을 해야하는지 모르지만 우선 메인 페이지를 만들어 보았음.
+
+Modeling
+--------
+<div>
+<img src = "https://user-images.githubusercontent.com/64782636/99531949-da807280-29e6-11eb-9cdc-89fa19582b8c.png" width = "50%"></img>
+</div>
