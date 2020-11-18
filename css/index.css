@@ -1,2 +1,6 @@
 @import "reset.css";
 @import "main.css";
+
+body {
+  white-space: nowrap;
+}

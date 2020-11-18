@@ -1,7 +1,7 @@
 header {
   background-color: white;
   border-bottom: 1px solid lightgray;
-  padding: 15px 0px;
+  padding-bottom: 30px;
   height: 7vh;
 }
 
@@ -10,6 +10,7 @@ header .header-menu,
 header .header-user,
 header .header-bigmenu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -20,10 +21,15 @@ header .header-menu {
 header .header-menu > li {
   margin-left: 60px;
   font-weight: 600;
+  width: 80px;
 }
 
 header .header-user > li:first-child {
   margin-left: 60px;
+}
+
+header .header-user > li:last-child {
+  margin-right: 20px;
 }
 
 header .header-user > li {
@@ -32,10 +38,25 @@ header .header-user > li {
 }
 
 header .header-bigmenu > li {
+  text-align: center;
   position: relative;
-  margin-left: 20px;
   font-weight: 600;
-  width: inherit;
   height: 7vh;
-  background-color: green;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 80px;
+  font-size: 12px;
+}
+
+header .header-bigmenu > li:first-child {
+  background-color: #20ae9b;
+}
+
+header .header-bigmenu > li:last-child {
+  background-color: #004899;
+}
+
+header .header-bigmenu-div {
+  padding-top: 10px;
+  color: white;
 }
