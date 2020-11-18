@@ -1,0 +1,41 @@
+header {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  padding: 15px 0px;
+  height: 7vh;
+}
+
+header .header-column,
+header .header-menu,
+header .header-user,
+header .header-bigmenu {
+  display: flex;
+  align-items: center;
+}
+
+header .header-menu {
+  margin-left: 13vw;
+}
+
+header .header-menu > li {
+  margin-left: 60px;
+  font-weight: 600;
+}
+
+header .header-user > li:first-child {
+  margin-left: 60px;
+}
+
+header .header-user > li {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+header .header-bigmenu > li {
+  position: relative;
+  margin-left: 20px;
+  font-weight: 600;
+  width: inherit;
+  height: 7vh;
+  background-color: green;
+}
