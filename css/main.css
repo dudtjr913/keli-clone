@@ -6,7 +6,6 @@ main {
 main .intro {
   display: flex;
   height: 810px;
-  width: 52.3%;
   position: relative;
 }
 
@@ -14,7 +13,7 @@ main .intro_inner .intro_txt {
   position: absolute;
   z-index: 1;
   top: 110px;
-  left: 13%;
+  left: 6.5%;
 }
 
 main .intro_inner .intro_txt > p {
@@ -28,7 +27,7 @@ main .intro_inner .intro_txt > p {
 
 main .intro_inner .main_slide_paging {
   position: absolute;
-  left: 13%;
+  left: 6.5%;
   top: 295px;
   z-index: 20;
 }
@@ -57,7 +56,7 @@ main .intro_inner .intro_notice {
   bottom: 80px;
   height: 170px;
   background-color: rgba(98, 97, 91, 0.8);
-  width: 100%;
+  width: 52.3%;
 }
 
 main .intro_inner .intro_notice_img {
@@ -108,4 +107,55 @@ main .intro_quick_list > a > i {
   margin-right: 7px;
   font-size: 23px;
   top: 2px;
+}
+
+main .content {
+  height: 810px;
+  width: 100%;
+}
+
+main .content_top,
+main .content_mid,
+main .content_bottom {
+  display: flex;
+  height: 270px;
+}
+
+main .content_top .calendar {
+  width: 33%;
+  background-color: #20ae9b;
+}
+
+main .content_top .view_process {
+  width: 67%;
+  background-color: #fafafa;
+}
+
+main .content_mid .content_notice {
+  width: 66.5%;
+  background-color: #e8efff;
+  border-right: 1px solid #ccd2e0;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+main .content_mid .other_site_links {
+  width: 33.5%;
+  text-align: left;
+}
+
+main .content_mid .other_site_link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .content_mid .other_site_link > li {
+  background-color: #e8efff;
+  padding-left: 50px;
+  display: block;
+}
+
+main .content_mid .other_site_link > li:first-child {
+  border-bottom: 1px solid #ccd2e0;
 }
