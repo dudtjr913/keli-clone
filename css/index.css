@@ -1,6 +1,7 @@
 @import 'reset.css';
 @import 'header.css';
 @import 'headerMedia.css';
+@import 'main.css';
 
 body {
   letter-spacing: -0.08em;

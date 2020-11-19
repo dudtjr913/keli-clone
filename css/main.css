@@ -1,0 +1,89 @@
+main {
+  width: 1700px;
+  margin: 0 auto;
+}
+
+main .intro {
+  display: flex;
+  height: 810px;
+  width: 52.3%;
+  position: relative;
+}
+
+main .intro_inner .intro_txt {
+  position: absolute;
+  z-index: 1;
+  top: 110px;
+  left: 13%;
+}
+
+main .intro_inner .intro_txt > p {
+  line-height: 1.3;
+  letter-spacing: -0.1em;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  color: #242424;
+  margin-bottom: 25px;
+}
+
+main .intro_inner .main_slide {
+  position: relative;
+}
+
+main .intro_inner .intro_notice {
+  position: absolute;
+  bottom: 80px;
+  height: 170px;
+  background-color: rgba(98, 97, 91, 0.7);
+  width: 100%;
+}
+
+main .intro_inner .intro_notice_img {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+main .intro_quick {
+  position: relative;
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  bottom: 2px;
+}
+
+main .intro_quick_lists {
+  display: flex;
+}
+
+main .intro_quick_list {
+  font-size: 20px;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+main .intro_quick_list:first-child {
+  background-color: #004899;
+}
+
+main .intro_quick_list:nth-child(2) {
+  background-color: #ec9f00;
+}
+
+main .intro_quick_list:last-child {
+  background-color: #20ae9b;
+}
+
+main .intro_quick_list > a {
+  color: white;
+  font-weight: 400;
+}
+
+main .intro_quick_list > a > i {
+  position: relative;
+  margin-right: 7px;
+  font-size: 23px;
+  top: 2px;
+}
