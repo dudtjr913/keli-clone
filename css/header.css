@@ -1,0 +1,89 @@
+header {
+  background-color: white;
+  height: 100px;
+  border-bottom: 1px solid #cccccc;
+}
+
+header .inner {
+  position: relative;
+  width: 1700px;
+  margin: 0 auto;
+}
+
+header .header-logo {
+  position: absolute;
+  margin-top: 20px;
+}
+
+header .header-menu {
+  float: right;
+  line-height: 100px;
+  height: 100px;
+  padding: 0px 370px 0 300px;
+}
+
+header .header-menu .menu-dep {
+  float: left;
+}
+
+.menu-dep > a {
+  text-align: center;
+  padding: 0px 30px;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+header .header-user {
+  position: absolute;
+  height: 100px;
+  line-height: 100px;
+  top: 0;
+  right: 0;
+  margin-right: 200px;
+}
+
+header .header-user > li {
+  float: left;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+header .header-bigmenu {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-align: center;
+}
+
+header .header-bigmenu > li {
+  float: left;
+  width: 100px;
+}
+
+header .header-bigmenu > li:first-child {
+  background-image: url('../images/srch_ico.png');
+  background-color: #20ae9b;
+}
+
+header .header-bigmenu > li:last-child {
+  background-image: url('../images/sitemap_ico.png');
+  background-color: #004899;
+}
+
+header .header-bigmenu > li {
+  background-repeat: no-repeat;
+  background-position: center 20%;
+}
+
+.header-bigmenu-icon {
+  height: 100px;
+  display: block;
+}
+
+header .header-bigmenu-txt {
+  padding-top: 64px;
+  font-size: 15px;
+  color: white;
+}

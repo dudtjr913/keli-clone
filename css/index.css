@@ -1,6 +1,19 @@
-@import "reset.css";
-@import "main.css";
+@import 'reset.css';
+@import 'header.css';
+@import 'headerMedia.css';
 
 body {
-  white-space: nowrap;
+  letter-spacing: -0.08em;
+}
+
+.wrapper {
+  min-width: 1000px;
+  background-color: #eeeeee;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    min-width: 320px;
+    width: 100%;
+  }
 }
