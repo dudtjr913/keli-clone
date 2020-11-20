@@ -330,5 +330,22 @@ main .content_bottom .other_links .other_link_img {
 main .content_bottom .other_links .other_link_txt {
   color: white;
   padding-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
+}
+
+main .contact {
+  display: flex;
+  width: 100%;
+  height: 75px;
+}
+
+main .contact_title {
+  background-color: #20ae9b;
+  width: 155px;
+  height: 75px;
+}
+
+main .contact_lists {
+  background-color: beige;
+  width: 100%;
 }
